@@ -82,19 +82,4 @@ $("#add-btn").on("click", function(event) {
   $("#title").val("");
 
 });
-
-// from the orders on-click div
-    // var ds = $(this).data("data-state");
-    // ds = $(this).attr("data-state", "true");
-    // console.log(JSON.stringify(ds));
-
-    // if (devourState === "true") {
-    //   console.log("devourState: true")
-    // } else {
-    //   console.log("devourState: false")
-    // }
-
-    // var devourState = $(this).data("data-state");
-    // console.log(JSON.stringify(devourState));
-
 });
