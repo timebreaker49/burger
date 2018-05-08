@@ -57,7 +57,7 @@ $.get("/api/all", function(data) {
       
   });
 
-$("#add-btn").on("click", function(event) {
+$("#add-btn").on("submit", function(event) {
   event.preventDefault();
 
   // Make a newBook object
