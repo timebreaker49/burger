@@ -5,7 +5,7 @@
 // Dependencies
 // =============================================================
 var Burger = require("../models/burger.js");
-var db = require("./app/models");
+var db = require("../models/index.js");
 
 // Routes
 // =============================================================
