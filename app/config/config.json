@@ -16,10 +16,6 @@
     "production": {
       "use_env_variable": "JAWSDB_URL",
       "dialect": "mysql"
-    },
-    "engines": {
-      "node": "8.9.3",
-      "npm": "5.8.0"
     }
   }
   
