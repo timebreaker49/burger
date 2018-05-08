@@ -10,7 +10,7 @@ var db = require("../models");
 // =============================================================
 module.exports = function (app) {
   // Get all Burgers
-  app.get("/api/all", function (req, res) {
+  app.get("/", function (req, res) {
     db.Burger.findAll({}).then(results => res.json(results));
   });
 
