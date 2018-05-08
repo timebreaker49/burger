@@ -60,7 +60,7 @@ $.get("/api/all", function(data) {
 $("#add-btn").on("click", function(event) {
   event.preventDefault();
 
-  // Make a newBook object
+  // Make a newBurger object
   var newBurger = {
     burger_name: $("#title").val().trim(),
   };
