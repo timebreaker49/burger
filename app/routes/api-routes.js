@@ -5,20 +5,21 @@
 // Dependencies
 // =============================================================
 var Burger = require("../models/burger.js");
+var db = require("./app/models");
 
 // Routes
 // =============================================================
 module.exports = function (app) {
   // Get all Burgers
   app.get("/api/all", function (req, res) {
-    Burger.findAll({}).then(results => res.json(results));
+    db.Burger.findAll({}).then(results => res.json(results));
   });
 
   // Add a Burger
   app.post("/api/new", function (req, res) {
     console.log("Burger Data:");
     console.log(req.body);
-    Burger.create({
+    db.Burger.create({
       burger_name: req.body.burger_name,
       devoured: req.body.devoured
     }).then(function(result) {
@@ -31,7 +32,7 @@ module.exports = function (app) {
     var body = req.body
     console.log("Burger Data:");
     console.log(req.body);
-    Burger.update(body, {
+    db.Burger.update(body, {
       where: {
         id: req.body.id
       }
