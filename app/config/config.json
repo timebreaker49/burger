@@ -1,0 +1,25 @@
+{
+    "development": {
+      "username": "root",
+      "password": "root",
+      "database": "sequelize_burger",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": "root",
+      "database": "sequelize_burger",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "use_env_variable": "JAWSDB_URL",
+      "dialect": "mysql"
+    },
+    "engines": {
+      "node": "8.9.3",
+      "npm": "5.8.0"
+    }
+  }
+  
