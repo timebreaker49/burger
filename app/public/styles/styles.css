@@ -1,0 +1,37 @@
+body {
+    background-color: orangered
+}
+
+.btn-primary {
+    background-color: burlywood;
+    color: black;
+    border-color: white;
+}
+
+.card {
+    margin-bottom: 4%;
+}
+
+.card-header {
+    background-color: burlywood
+}
+
+.card-body {
+    background-color: #252c2a;
+    color: white
+}
+
+.fa .fa-book {
+    background-color: black;
+}
+
+.form-control {
+    width: 75%;
+    float: left;
+    margin-right: 2%
+}
+
+.jumbotron {
+    background-color: #252c2a;
+    color: white
+}
